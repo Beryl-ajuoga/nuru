@@ -109,7 +109,7 @@ return (
           return (
             <tr>
               <td><input type="checkbox" id='check'></input></td>
-              <td>{item.full_name}</td>
+              <td>{item.Full_name}</td>
               <td>{item.child_name}</td>
               <td>{item.child_date_of_birth}</td>
               <td>{item.registration_date}</td>
