@@ -9,19 +9,19 @@ const Card = () => {
             <div className='sms-content'>
                <p>Total SMS</p>
                <br />
-               <p>2000</p>
+               <p>4000</p>
             </div>
 
             <div className='consumed'>
                <p>Consumed SMS</p>
                <br />
-               <p>2000</p>
+               <p>3000</p>
             </div>
 
             <div className='total'>
-               <p>Total Sms</p>
+               <p>SMS balance</p>
                <br />
-               <p>2000</p>
+               <p>1000</p>
             </div>
         </div>
  )
