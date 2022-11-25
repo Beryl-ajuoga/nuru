@@ -102,8 +102,7 @@ return (
           <th>Registration Date</th>
           <th>User's Phone Number</th>
           <th>Appointment Date</th>
-          <th>Action</th>
-          {/* <th>Action</th> */}
+
         </tr>
         {/* {filteredUsers.length!==} */}
          {users.map(item => {
@@ -117,7 +116,6 @@ return (
               <td>{item.Phone_number}</td>
               <td>{item.appointment_date}</td>
               
-              <td><Link to=" "><button type='submit' onClick={SendMessage} id='send'>Send Message</button></Link></td>
               {/* <td>{item.action}</td> */}
             </tr>
           )
